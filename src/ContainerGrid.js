@@ -20,9 +20,9 @@ function ContainerGrid() {
         <>
             <Container fluid>
                 <Row>
-                    <Col> <Counter value={valCounter} ></Counter></Col> 
-                    <Col> <Button onClick = {() => interactionCounter(false, valCounter)} > Click </Button>  </Col> 
-                    <Col> <Button onClick = {() => interactionCounter(true, valCounter)} > Reset </Button>  </Col> 
+                    <Col sm> <Counter value={valCounter} ></Counter></Col> 
+                    <Col sm> <Button onClick = {() => interactionCounter(false, valCounter)} > Click </Button>  </Col> 
+                    <Col sm> <Button onClick = {() => interactionCounter(true, valCounter)} > Reset </Button>  </Col> 
                 </Row> 
             </Container> 
         </>
