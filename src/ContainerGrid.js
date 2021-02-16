@@ -1,5 +1,7 @@
 import Counter from './Counter';
-import { Col, Row, Container } from "react-bootstrap";
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 
